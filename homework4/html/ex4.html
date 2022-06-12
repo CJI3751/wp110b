@@ -1,1 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"></meta>
+    <title>註冊</title>
 
+    <style>
+     div {
+        text-align:center;
+        font-family:comic sans MS;
+        }     
+     p {
+        font-size:200%;
+        margin: 20px;
+        }      
+     button {
+       padding:10px 20px;
+       color:white;
+       font-family:comic sans MS;
+       background-color:rgba(0, 0, 0, 0.812);    
+       border-radius:10px;
+     }
+     button:hover {
+       padding:10px 20px;
+       color:white;
+       font-family:comic sans MS;
+       background-color:rgba(0, 0, 0, 0.734);    
+       border-radius:10px;
+     }
+     input[type=text]{
+       padding: 10px;
+       border-radius:10px;
+     }
+  
+    </style>
+  </head>
+    <body style=background-color:rgba(255,255,255,0.186);>
+        <div>  
+            <h1>註冊</h1>
+            <p>姓名:<input type="text" name="姓名" value="" placeholder=""></p>
+            
+            <p>e-mail:<input type="text" name="e-mail" value="" placeholder=""></p>
+            
+            <p>密碼:<input type="text" name="密碼" value="" placeholder=""></p>
+            
+            <p style=font-size:100%;><input type="checkbox" name="agree">我同意此 <a href="#">用戶條款</a></p>
+            
+            <button class="primary">送出</button>
+        </div>
+    </body>
+</html>
